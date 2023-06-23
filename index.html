@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="section">
+            <div class="top_navbar">
+                <div class="hamburger">
+                    <img  class="ham" src="ham.png" alt="image" width="23">
+
+                    <!---<a href="#">
+                        <i class="fas fa-bars"></i> 
+                    </a>--->
+                </div>
+            </div>
+             
+        </div>
+        <div class="sidebar">
+           <div class="profile">
+            <img src="simranphoto.png" alt="profile_picture">
+            <h3>Simran Chand</h3>
+            <p>Developer</p>
+            </div>
+            <ul>
+
+                <li>
+                    <a href="/home.html" class="active">
+                        <span class="icon"><i class="fas fa-home"></i></span>
+                        <span class="item">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/contact.html">
+                        <span class="icon"><i class="fas fa-desktop"></i></span>
+                        <span class="item">Contact</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="info.html">
+                        <span class="icon"><i class="fas fa-user-friends"></i></span>
+                        <span class="item">Information</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="guide.html">
+                        <span class="icon"><i class="fas fa-tachometer-alt"></i></span>
+                        <span class="item">Guide</span>
+                    </a>
+                </li>
+                
+               
+            </ul>
+        </div>
+        <div class="main">
+            <h1 style="font: size 260px; text-align: center; color: brown;">Hello, </h1>
+            <h2 style="font: size 200px; text-align: center;"> I am Student of University of Lucknow</h2>
+            <h2 style="font: size 160px; text-align: center;">I like to craft solid and scalable frontend products</h2>
+            <h2 style="font: size 120px; text-align: center;">with great user experiences.</h2>
+        </div>
+        
+        
+
+    </div>
+    
+  <script>
+    var hamburger = document.querySelector(".hamburger");
+    hamburger.addEventListener("click", function(){
+        document.querySelector("body").classList.toggle("active");
+    })
+
+  </script>
+</body>
+</html>
